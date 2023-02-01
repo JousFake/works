@@ -1,14 +1,14 @@
 (() => {
-	var change_type = document.getElementsByClassName('change-kind');							//SSD|HDD toggle
+	var change_type = document.getElementsByClassName('change-kind');			//SSD|HDD toggle
 	var change_subscribe = document.getElementsByClassName('change-subscribe');		//Multi|Single toggle
-	var storage_range = document.getElementById('storage');												//storage slider
-	var transfer_range = document.getElementById('transfer');											//transfer slider
-	var storage_lable = document.getElementById('storage-value');									//storage amount text
-	var transfer_lable = document.getElementById('transfer-value');								//transfer amount text
+	var storage_range = document.getElementById('storage');					//storage slider
+	var transfer_range = document.getElementById('transfer');				//transfer slider
+	var storage_lable = document.getElementById('storage-value');				//storage amount text
+	var transfer_lable = document.getElementById('transfer-value');				//transfer amount text
 	var area = document.getElementById('chart-area');															//graphics area
 
-	var chart_rows = document.getElementsByClassName('chart-rows');								//chart lines
-	var cost_labels = document.getElementsByClassName('chart-rows-text');					//cost text in graphics area
+	var chart_rows = document.getElementsByClassName('chart-rows');				//chart lines
+	var cost_labels = document.getElementsByClassName('chart-rows-text');			//cost text in graphics area
 
 	var storage = storage_range.value;
 	var transfer = transfer_range.value;
