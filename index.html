@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Example work</title>
+</head>
+<body data-body>
+	<div class="charts-container">
+		<div class="charts-wrapper">
+			<div class="header-settings">
+				<div class="storage-wrapper">
+					<div class="left-side">
+						<label id="label-text">Storage: <output id="storage-value"></output></label><br/>
+						<input type="range" id="storage" name="storage" min="1" max="1000" step="1">
+					</div>
+					<div class="right-side">
+						<label id="label-text">Transfer: <output id="transfer-value"></output></label><br/>
+						<input type="range" id="transfer" name="transfer" min="1" max="1000" step="1">
+					</div>
+				</div>
+			</div>
+			<div class="charts">
+				<div class="chart-labels">
+					<div class="chart-label">
+						<div class="toplines">
+							<label id="chart-label-1">backblaze</label>
+							<img src="./images/backblaze.png" alt="Backblaze.com">
+						</div>
+					</div>
+					<div class="chart-label">
+						<div class="toplines">
+							<label id="chart-label-2">bunny</label>
+							<img src="./images/bunny.png" alt="Bunny.net">
+						</div>
+						<div class="options">
+							<a href="#" class="change-kind">HDD </a>
+						</div>
+					</div>
+					<div class="chart-label">
+						<div class="toplines">
+							<label id="chart-label-3">scaleway</label>
+							<img src="./images/scaleway.png" alt="Scaleway.com">
+						</div>
+						<div class="options">
+							<a href="#" class="change-subscribe">Multi</a>
+						</div>
+					</div>
+					<div class="chart-label">
+						<div class="toplines">
+							<label id="chart-label-4">vultr</label>
+							<img src="./images/vultr.png" alt="Vultr.com">
+						</div>
+					</div>
+				</div>
+				<div id="chart-area">
+					<div class="chart-rows-container"><div class="chart-rows"></div><label class="chart-rows-label"><output class="chart-rows-text"></output></label></div>
+					<div class="chart-rows-container"><div class="chart-rows"></div><div class="chart-rows-label"><output class="chart-rows-text"></output></div></div>
+					<div class="chart-rows-container"><div class="chart-rows"></div><label class="chart-rows-label"><output class="chart-rows-text"></output></label></div>
+					<div class="chart-rows-container"><div class="chart-rows"></div><label class="chart-rows-label"><output class="chart-rows-text"></output></label></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./scripts/script.js"></script>
+</body>
+</html>
